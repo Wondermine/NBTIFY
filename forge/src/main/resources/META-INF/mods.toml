@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+issueTrackerURL = "https://github.com/LetsChill/NBTIFY/issues"
+
+license = "MIT"
+
+[[mods]]
+modId = "nbtify"
+version = "${version}"
+displayName = "NBTIFY"
+#logoFile = ""
+authors = "Wondermine"
+description = '''
+About A mod that allows you to view NBT data of a hovered Item, and also copy it to clipboard. with a click of a button.
+'''
+
+[[dependencies.nbtify]]
+modId = "forge"
+mandatory = true
+versionRange = "[36,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.nbtify]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.5,)"
+ordering = "NONE"
+side = "CLIENT"
+
