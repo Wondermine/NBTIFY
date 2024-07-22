@@ -30,7 +30,7 @@ public class NBTScreen extends Screen {
     @Override
     public void init() {
 
-        this.addButton(
+        this.addRenderableWidget(
                 new Button(
                         (this.width / 2) - 90,
                         this.height - 60,
@@ -50,7 +50,7 @@ public class NBTScreen extends Screen {
                         })
         );
 
-        this.addButton(
+        this.addRenderableWidget(
                 new Button(
                         (this.width / 2) - 90,
                         this.height - 40,
